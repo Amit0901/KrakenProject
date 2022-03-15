@@ -21,4 +21,7 @@ public class SquareRunner
 	{
 		SquareRunner apps = new SquareRunner();
 	}
+
+
+
 }
