@@ -3,6 +3,8 @@ public class SquareRunner
 	public SquareRunner()
 	{
 
+	//Lamda expression for a Square method
+
 		Square square = (x)->{
 
 			if(x%2==0)
@@ -10,6 +12,8 @@ public class SquareRunner
 
 			return false;
 		};
+
+		//Prints out the Lamda function
 		System.out.println(square.checker(4));
 
 	}
