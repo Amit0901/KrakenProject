@@ -1,7 +1,7 @@
 import java.lang.Math;
-interface Square
+public interface Square
 {
-		public void checker(int x);
+		public boolean checker(int x);
 
 
 

@@ -1,9 +1,20 @@
-public class SquareRunner implements Square
+public class SquareRunner
 {
-	int sqval = 4;
-
-	public void checker(int x)
+	public SquareRunner()
 	{
-		sqval = x;
+
+		Square square = (x)->{
+
+			if(x%2==0)
+			return true;
+
+			return false;
+		};
+		System.out.println(square.checker(4));
+
+	}
+	public static void main(String[]args)
+	{
+		SquareRunner apps = new SquareRunner();
 	}
 }
