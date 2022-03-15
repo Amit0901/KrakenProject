@@ -1,0 +1,6 @@
+	GitKraken was a very new application for me, I never used anything like it in the past.
+	It was very difficult to use to start, but eventually I got a hang of it. 
+	I learned how to push and pull from the partner application/website of GitHub to recover data.
+	Merging was definetly the most difficult part, I had to figure out how and when to merge to the main file.
+	There were times where we merged from the main fil out, rather than in, so it was a learning experience. 
+	
