@@ -7,7 +7,7 @@ public class SquareRunner
 
 		Square square = (x)->{
 
-		int sqr = Math.sqrt(x);
+		int sqr = (int) Math.sqrt(x);
 		return ((sqr - Math.floor(sqr)) == 0);   
 		};
 
