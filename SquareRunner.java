@@ -1,3 +1,4 @@
+import java.lang.Math;
 public class SquareRunner
 {
 	public SquareRunner()
@@ -7,8 +8,8 @@ public class SquareRunner
 
 		Square square = (x)->{
 
-		int sqr = (int) Math.sqrt(x);
-		return ((sqr - Math.floor(sqr)) == 0);   
+		double sqr =  Math.sqrt(x);
+		return ((sqr - Math.floor(sqr)) == 0);
 		};
 
 		//Prints out the Lamda function
