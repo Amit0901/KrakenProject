@@ -7,10 +7,8 @@ public class SquareRunner
 
 		Square square = (x)->{
 
-			if(x%2==0)
-			return true;
-
-			return false;
+		int sqr = Math.sqrt(x);
+		return ((sqr - Math.floor(sqr)) == 0);   
 		};
 
 		//Prints out the Lamda function
